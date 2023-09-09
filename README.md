@@ -14,7 +14,7 @@ Update the script permission, then run the installation script.
 
 ```bash
 sudo chmod +x install.sh
-./install.sh
+sudo ./install.sh
 ```
 
 ## Tools
@@ -53,4 +53,13 @@ Concats all the `*.c` files within the current directory into an output file (`c
 
 ```bash
 get_cfiles
+```
+
+## Removal
+
+To remove the tools, run the uninstall script.
+
+```bash
+sudo chmod +x uninstall_tools.sh
+sudo ./uninstall_tools.sh
 ```
