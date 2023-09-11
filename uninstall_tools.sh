@@ -1,2 +1,2 @@
-rm /usr/local/bin/normcheck
-rm /usr/local/bin/get_cfiles
+rm ~/bin/normcheck
+rm ~/bin/get_cfiles

@@ -6,15 +6,34 @@ A collection of tools for 42 curcus.
 
 ## Prerequisites
 
-Ensure that [norminette](https://github.com/42School/norminette) is installed beforehand.
+- Ensure that bash is available in the system, as it is a `bash` script.
+- Ensure that [norminette](https://github.com/42School/norminette) is installed beforehand.
 
 ## Installation
 
-Update the script permission, then run the installation script.
+Clone the repository.
+
+```bash
+cd ~
+git clone https://github.com/quantumxt/helios.git
+```
+
+### Script
+
+The installation script would be used to install the tools. 
+
+> If you are using `zsh` as you default shell, uncomment the export to `.zshrc` instead. (Defaults to `.bashrc`)
+>
+> ```sh
+> # echo "export PATH=$PATH:/home/username/bin" >> ~/.bashrc
+> echo "export PATH=$PATH:/home/username/bin" >> ~/.zshrc
+> ```
+
+Update the script permission with `+x`, then run the installation script.
 
 ```bash
 sudo chmod +x install.sh
-sudo ./install.sh
+./install.sh
 ```
 
 ## Tools
@@ -61,5 +80,5 @@ To remove the tools, run the uninstall script.
 
 ```bash
 sudo chmod +x uninstall_tools.sh
-sudo ./uninstall_tools.sh
+./uninstall_tools.sh
 ```
