@@ -26,7 +26,9 @@ The installation script would be used to install the tools.
 >
 > ```sh
 > # echo "export PATH=$PATH:/home/username/bin" >> ~/.bashrc
+> # . ~/.bashrc
 > echo "export PATH=$PATH:/home/username/bin" >> ~/.zshrc
+> . ~/.zshrc
 > ```
 
 Update the script permission with `+x`, then run the installation script.
